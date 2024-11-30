@@ -1,0 +1,7 @@
+1. In this project i create student form where student can register and there details displayed aside.
+2. added validation checks for input fields such as a valid email if it ends eith @gmail.com and many more.
+3. used localstorage to persist student details even the tab is closed or refreshed.
+4. given delete option if click on delete button it will be removed from details table and also in localstorage.
+5.implement edit functionality in a way like just enter value in the filed you want to edit and click on edit button on the record you want edit.
+
+GITHUB LINK: https://github.com/sharadvamsi/student-registration.git
