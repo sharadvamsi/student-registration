@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Registration</title>
+    <meta name="author" content="Sharad Vamsi T">
+    <meta name="description" content="student registration form to add new students and edit existing student records">
+    <link rel="icon" href="student.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <section>
+            <form action="submit" class="form-container">
+                <div class="input-container">
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" placeholder="Enter your name" id="studentName">
+                </div>
+                <div class="input-container">
+                    <label for="studentId">Student ID:</label>
+                    <input type="number" placeholder="Enter your ID" id="studentId">
+                </div>
+                <div class="input-container">
+                    <label for="email">Email ID:</label>
+                    <input type="email" placeholder="Enter your email", id="email">
+                </div>
+                <div class="input-container">
+                    <label for="contact">contact No:</label>
+                    <input type="number" placeholder="Enter your contactNo", id="contact">
+                </div> 
+                <button class="addBtn" type="button">Add</button>
+            </form>
+            <div id="student-details">
+                    <div class="details-header">
+                        <h2>Name</h2>
+                        <h2>ID</h2>
+                        <h2>email</h2>
+                        <h2>Contact</h2>
+                        <h2></h2>
+                        <h2></h2>
+                    </div>
+
+            </div>           
+    </section>
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>
